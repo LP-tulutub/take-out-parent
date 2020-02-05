@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="menu-producer" />
+        <module name="generator-config" />
+        <module name="commons" />
+        <module name="shop-pojo" />
+        <module name="config-server" />
+        <module name="order-producer" />
+        <module name="account-producer" />
+        <module name="eureka-server-ha" />
+        <module name="client-consumer" />
+        <module name="user-producer" />
+        <module name="zip-geteway-zuul" />
+        <module name="redis-ha" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-producer" options="-parameters" />
+      <module name="client-consumer" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server-ha" options="-parameters" />
+      <module name="generator-config" options="-parameters" />
+      <module name="menu-producer" options="-parameters" />
+      <module name="order-producer" options="-parameters" />
+      <module name="redis-ha" options="-parameters" />
+      <module name="shop-pojo" options="-parameters" />
+      <module name="take-out-parent" options="-parameters" />
+      <module name="user-producer" options="-parameters" />
+      <module name="zip-geteway-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
